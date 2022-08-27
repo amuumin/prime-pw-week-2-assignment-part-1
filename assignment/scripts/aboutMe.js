@@ -57,3 +57,38 @@
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
 
+console.log('js');
+let firstName = 'Amina';
+let lastName = 'Muumin';
+let fullName = firstName  + ' ' + lastName;
+console.log('My full name is '+ fullName +'.');
+let luckyNumber = 7
+console.log('My name is ' + fullName + ', and I think '+ luckyNumber + ' is a winner!');
+let adventurous = true;
+let food = 'noodles';
+console.log('My favorite food is ' +food);
+let pets = 0;
+console.log('I have '+ pets + ' pets.');
+let friendsPets= 3;
+console.log('My friends have ' + friendsPets + ' pets.');
+pets +=3
+console.log(pets);
+let allowedPets = 2;
+if (adventurous){
+    console.log("Adventures are great!");
+} 
+else{
+    console.log("How about we stay home?");
+}
+if (luckyNumber = 2 && adventurous ){
+    console.log("Roll the dice!");
+}
+if (pets <= allowedPets){
+    console.log("I can have more pets!");
+}
+if (pets == allowedPets){
+    console.log("I have enough pets");
+}
+if (pets >= allowedPets){
+    console.log("Oh no, I have too many pets!");
+}
